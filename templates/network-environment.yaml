@@ -135,10 +135,10 @@ parameter_defaults:
 
 
   # Set the Open vSwitch logical to physical bridge mappings:
-  NeutronBridgeMappings: 'datacentre:br-isolated, fastpath:br-link'
+  NeutronBridgeMappings: 'datacentre:br-isolated, dpdk:br-link'
 
   # Set the OpenStack Networking ML2 and Open vSwitch VLAN mapping range:
-  NeutronNetworkVLANRanges: 'datacentre:4000:4070, fastpath:4071:4093'
+  NeutronNetworkVLANRanges: 'datacentre:4000:4070, dpdk:4071:4071'
 
   # Set a list or range of physical CPU cores that should be excluded from tuning:
   HostCpusList: "'0,1,2,3,4,5,6,7,8,9,10,11,24,25,26,27,28,29,30,31,32,33,34,35'"
