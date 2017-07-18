@@ -1,0 +1,23 @@
+# Note this can be specified either in the call
+# to heat stack-create via an additional -e option
+# or via the global environment on the seed in
+# /etc/heat/environment.d/default.yaml
+parameter_defaults:
+  rhel_reg_activation_key: "dpdktest"
+  rhel_reg_auto_attach: ""
+  rhel_reg_base_url: ""
+  rhel_reg_environment: ""
+  rhel_reg_force: ""
+  rhel_reg_machine_name: ""
+  rhel_reg_org: "Default_Organization"
+  rhel_reg_password: ""
+  rhel_reg_pool_id: "2c9ca9c359b691e10159b69d32e30250"
+  rhel_reg_release: ""
+  rhel_reg_repos: "rhel-7-server-rpms,rhel-7-server-extras-rpms,rhel-7-server-rh-common-rpms,rhel-ha-for-rhel-7-server-rpms,rhel-7-server-openstack-10-rpms,rhel-7-server-rhceph-2-osd-rpms,rhel-7-server-rhceph-2-mon-rpms"
+  rhel_reg_sat_url: "http://sat6.rolman.net"
+  rhel_reg_server_url: ""
+  rhel_reg_service_level: ""
+  rhel_reg_user: ""
+  rhel_reg_type: ""
+  rhel_reg_method: "disable"
+  rhel_reg_sat_repo: "rhel-7-server-satellite-tools-6.2-rpms"
